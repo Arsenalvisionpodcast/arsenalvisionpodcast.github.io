@@ -1,0 +1,13 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.arsenalvisionpodcast.app",
+      "sha256_cert_fingerprints": [
+        "D1:A0:BD:4A:71:5F:60:6A:06:34:0C:5D:04:C6:C6:4F:94:7D:FE:B9:87:62:96:45:BE:F2:AE:90:BA:02:A5:DF",
+        "FA:2B:22:1E:B8:0D:9E:0C:D9:FA:15:0D:E8:ED:8A:3F:92:84:9C:31:0E:4D:60:60:0E:0B:A9:16:62:08:63:4D"
+      ]
+    }
+  }
+]

@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Returning to ArsenalVision…</title>
+</head>
+<body>
+<!-- Patreon OAuth callback for the ArsenalVision app.
+
+     On Android devices where the verified App Link is active, the OS
+     hands the URL straight to the app and this page never renders.
+     Everywhere else (verification unavailable, older devices) this is
+     the fallback bounce: forward code+state to the app's custom scheme,
+     exactly like the original bounce page on arsenalvisionpodcast.com. -->
+<script>
+  window.location.replace("avpapp://patreon-callback" + window.location.search);
+</script>
+<p style="font-family: sans-serif; text-align: center; margin-top: 3em;">
+  Returning you to the ArsenalVision app…<br>
+  If nothing happens, open the ArsenalVision app and try connecting again.
+</p>
+</body>
+</html>
