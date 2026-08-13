@@ -11,15 +11,19 @@
 
      On Android devices where the verified App Link is active, the OS
      hands the URL straight to the app and this page never renders.
-     Everywhere else (verification unavailable, older devices) this is
-     the fallback bounce: forward code+state to the app's custom scheme,
-     exactly like the original bounce page on arsenalvisionpodcast.com. -->
-<script>
-  window.location.replace("avpapp://patreon-callback" + window.location.search);
-</script>
+     Everywhere else this is the fallback bounce: forward code+state to
+     the app's custom scheme. The visible link matters — browsers can
+     suppress SCRIPTED external-protocol launches when no user gesture
+     is attributed to the navigation, and a real tap always works. -->
 <p style="font-family: sans-serif; text-align: center; margin-top: 3em;">
-  Returning you to the ArsenalVision app…<br>
-  If nothing happens, open the ArsenalVision app and try connecting again.
+  Returning you to the ArsenalVision app…<br><br>
+  <a id="open" href="avpapp://patreon-callback"
+     style="font-size: 1.2em;">Tap here if nothing happens</a>
 </p>
+<script>
+  var target = "avpapp://patreon-callback" + window.location.search;
+  document.getElementById("open").setAttribute("href", target);
+  window.location.replace(target);
+</script>
 </body>
 </html>
