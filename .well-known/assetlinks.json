@@ -5,6 +5,8 @@
       "namespace": "android_app",
       "package_name": "com.arsenalvisionpodcast.app",
       "sha256_cert_fingerprints": [
+        "7A:94:44:A9:6A:B8:60:F7:66:33:B8:8F:04:17:F1:23:56:55:5C:57:2E:8A:78:4E:8A:26:C2:FE:93:67:CA:15",
+        "0B:75:BA:82:16:FC:2D:A1:C2:DD:75:E2:67:1A:56:6E:EB:4B:BC:15:E6:84:07:BE:46:9F:11:B4:7E:4B:96:5E",
         "D1:A0:BD:4A:71:5F:60:6A:06:34:0C:5D:04:C6:C6:4F:94:7D:FE:B9:87:62:96:45:BE:F2:AE:90:BA:02:A5:DF",
         "FA:2B:22:1E:B8:0D:9E:0C:D9:FA:15:0D:E8:ED:8A:3F:92:84:9C:31:0E:4D:60:60:0E:0B:A9:16:62:08:63:4D"
       ]
